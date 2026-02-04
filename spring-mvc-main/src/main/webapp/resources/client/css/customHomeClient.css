@@ -1,0 +1,24 @@
+.fixed-height-paragraph {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 3em;
+}
+
+.img-hero {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.item-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 58px;
+    text-align: center;
+}
